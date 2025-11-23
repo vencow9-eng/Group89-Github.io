@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
 </head>
+
 <body>
-  <header>
     <div class="navbar">
-      <a href="{{ site.baseurl }}/">Beranda</a>
-      <a href="{{ site.baseurl }}/about">Tentang</a>
-      <a href="{{ site.baseurl }}/contact">Kontak</a>
+        <a href="{{ site.baseurl }}/">Beranda</a>
+        <a href="{{ site.baseurl }}/about">Tentang</a>
+        <a href="{{ site.baseurl }}/contact">Kontak</a>
+        <a href="{{ site.baseurl }}/services">Layanan</a>
+        <a href="{{ site.baseurl }}/blog">Blog</a>
     </div>
-  </header>
-  <div class="container">
-    {{ content }}
-  </div>
-  <footer>
-    <p>© 2025 Group89. Dibangun dengan GitHub Pages.</p>
-  </footer>
+
+    <header>
+        <div class="container">
+            <h1>Selamat Datang di Group89!</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Group89. Dibangun dengan <span style="color:red;">&#9829;</span> menggunakan <a href="https://pages.github.com" target="_blank">GitHub Pages</a>.</p>
+        <div>
+            <a href="https://twitter.com/Group89" target="_blank">Twitter</a> |
+            <a href="https://www.linkedin.com/company/group89" target="_blank">LinkedIn</a> |
+            <a href="https://instagram.com/Group89" target="_blank">Instagram</a>
+        </div>
+    </footer>
 </body>
+
 </html>
