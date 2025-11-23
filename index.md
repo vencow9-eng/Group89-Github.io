@@ -3,7 +3,7 @@ layout: default
 title: "Selamat Datang di Group89!"
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
 
 <header>
     <h1>Selamat Datang di Group89!</h1>
