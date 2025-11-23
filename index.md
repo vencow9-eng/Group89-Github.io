@@ -1,22 +1,3 @@
----
-layout: default
-title: "Selamat Datang di Group89!"
----
-
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
-
-<header>
-    <div class="container">
-        <h1>Selamat Datang di Group89!</h1>
-        <nav class="navbar">
-            <a href="{{ site.baseurl }}/about.md">Tentang Kami</a>
-            <a href="{{ site.baseurl }}/contact.md">Kontak</a>
-            <a href="{{ site.baseurl }}/services.md">Layanan</a>
-            <a href="{{ site.baseurl }}/blog.md">Blog</a>
-        </nav>
-    </div>
-</header>
-
 <main class="container">
     <section>
         <h2>Apa yang Bisa Anda Temukan di Group89?</h2>
@@ -73,12 +54,3 @@ title: "Selamat Datang di Group89!"
         <a href="{{ site.baseurl }}/join.md" class="btn">Gabung Sekarang</a>
     </section>
 </main>
-
-<footer>
-    <p>&copy; 2025 Group89. Dibangun dengan <span style="color:red;">&#9829;</span> menggunakan <a href="https://pages.github.com" target="_blank">GitHub Pages</a>.</p>
-    <div>
-        <a href="https://twitter.com/Group89" target="_blank"><i class="fab fa-twitter"></i> Twitter</a> |
-        <a href="https://www.linkedin.com/company/group89" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
-        <a href="https://instagram.com/Group89" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-    </div>
-</footer>
