@@ -1,30 +1,31 @@
-/* General Body Styling */
+/* General Layout Styling */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #111; /* Dark background */
-    color: #f1c40f; /* Gold text */
+    background-color: #111;
+    color: #f1c40f;
     margin: 0;
     padding: 0;
 }
 
-/* Header */
 header {
-    background-color: #222; /* Slightly darker header */
-    padding: 20px 0;
-    text-align: center;
+    background-color: #222;
+    color: #f1c40f;
+    padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
-    font-size: 42px;
+    font-size: 36px;
     font-weight: bold;
+    text-align: center;
 }
 
-/* Navbar */
+/* Navbar Styling */
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    margin-top: 20px;
 }
 
 .navbar a {
@@ -32,7 +33,7 @@ header h1 {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -42,50 +43,33 @@ header h1 {
     color: #111;
 }
 
-/* Main Content */
+/* Main Section Styling */
 .container {
     padding: 40px;
     text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
-/* Section Title */
-section h2 {
+h2 {
     font-size: 28px;
     color: #f1c40f;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 
-/* Grid Layout for Content */
 .row {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .col-md-4 {
-    flex: 1;
-    max-width: 30%;
     background-color: #333;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
     padding: 20px;
-}
-
-.card-title {
-    font-size: 24px;
-    color: #f1c40f;
-    margin-bottom: 20px;
-}
-
-.card-text {
-    font-size: 18px;
-    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 30%;
+    text-align: center;
 }
 
 .card-img {
@@ -95,31 +79,35 @@ section h2 {
     margin-bottom: 20px;
 }
 
-.card-footer a {
-    background-color: #f1c40f;
-    color: #111;
-    padding: 8px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.card-footer a:hover {
-    background-color: #111;
+.card-title {
+    font-size: 24px;
     color: #f1c40f;
 }
 
-/* CTA Section */
-.cta {
-    background-color: #f1c40f;
-    padding: 40px;
-    color: #111;
+.card-footer {
+    text-align: center;
 }
 
-.cta h3 {
-    font-size: 30px;
+.card-footer a {
+    color: #111;
+    background-color: #f1c40f;
+    padding: 10px;
+    border-radius: 5px;
     font-weight: bold;
-    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.card-footer a:hover {
+    background-color: #222;
+    color: #f1c40f;
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: #f1c40f;
+    color: #111;
+    padding: 40px;
+    text-align: center;
 }
 
 .cta .btn {
@@ -138,12 +126,12 @@ section h2 {
     color: #111;
 }
 
-/* Footer */
+/* Footer Styling */
 footer {
     background-color: #222;
-    color: #f1c40f;
     padding: 20px;
     text-align: center;
+    color: #f1c40f;
     font-size: 16px;
 }
 
@@ -153,8 +141,8 @@ footer a {
 }
 
 footer a:hover {
-    color: #111;
     background-color: #f1c40f;
-    padding: 5px 10px;
+    color: #111;
+    padding: 5px;
     border-radius: 5px;
 }
