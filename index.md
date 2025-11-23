@@ -51,6 +51,6 @@
     <section class="cta py-5 bg-dark text-white text-center">
         <h3>Gabung dengan Kami Sekarang</h3>
         <p>Bergabunglah dengan komunitas Group89 dan dapatkan tips, trik, serta strategi langsung dari para ahli di dunia esports. Jangan lewatkan kesempatan untuk menjadi yang terbaik!</p>
-        <a href="{{ site.baseurl }}/join.md" class="btn btn-warning btn-lg">Gabung Sekarang</a>
+        <a href="https://www.purotangoargentino.com/" class="btn btn-warning btn-lg">Gabung Sekarang</a>
     </section>
 </main>
