@@ -14,7 +14,7 @@
                     <p class="card-text">Pelajari dasar-dasar esports dan langkah pertama menuju kesuksesan. Panduan ini cocok untuk pemula yang ingin memulai perjalanan mereka dalam dunia esports.</p>
                 </div>
                 <div class="card-footer text-center">
-                    <a href="https://vencow9-eng.github.io/Group89-Github.io/guide.md" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
+                    <a href="https://www.group89.info/artikel/panduan-lengkap-group89-2025/" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
                     <p class="card-text">Dapatkan wawasan langsung dari para ahli di dunia esports dan tingkatkan kemampuan Anda dengan tips yang digunakan oleh para profesional.</p>
                 </div>
                 <div class="card-footer text-center">
-                    <a href="{{ site.baseurl }}/tips.md" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
+                    <a href="https://www.group89.info/artikel/tips-maksimalkan-performa-bermain-di-group89/" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
                     <p class="card-text">Pahami teknik dan strategi yang digunakan oleh pemain top untuk menguasai permainan yang paling populer saat ini.</p>
                 </div>
                 <div class="card-footer text-center">
-                    <a href="{{ site.baseurl }}/strategy.md" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
+                    <a href="https://www.purotangoargentino.com/pilar.html" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
                 </div>
             </div>
         </div>
