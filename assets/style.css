@@ -18,6 +18,7 @@ header h1 {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
 }
 
 /* Navbar Styling */
@@ -26,6 +27,7 @@ header h1 {
     justify-content: center;
     gap: 30px;
     margin-top: 20px;
+    flex-wrap: wrap; /* Ensures menu wraps on smaller screens */
 }
 
 .navbar a {
@@ -61,7 +63,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Ensures the cards wrap in smaller screens */
 }
 
 .col-md-4 {
@@ -69,8 +71,9 @@ h2 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    width: 30%;
+    width: 30%; /* Each card takes 30% of the width on large screens */
     text-align: center;
+    margin-bottom: 20px; /* Adds space between the cards */
 }
 
 .card-img {
@@ -149,18 +152,54 @@ footer a:hover {
     border-radius: 5px;
 }
 
-/* Responsiveness */
+/* Responsiveness: Adjustments for mobile and tablet */
 @media (max-width: 768px) {
+    /* Navbar on mobile: stacked vertically */
     .navbar {
         flex-direction: column;
         gap: 15px;
     }
 
+    /* Cards on smaller screens: full width */
     .col-md-4 {
-        width: 100%; /* Stacks the cards vertically on small screens */
+        width: 100%; /* Each card takes 100% of the width on mobile */
     }
 
+    /* CTA button full width on mobile */
     .cta .btn {
         width: 100%; /* Makes the CTA button full-width on small screens */
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    /* Main title adjustment on smaller screens */
+    header h1 {
+        font-size: 28px;
+    }
+
+    /* Card title and text adjustments */
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    /* Footer font size adjustment for mobile */
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* For very small screens (like mobile phones) */
+@media (max-width: 480px) {
+    .card-img {
+        max-width: 100%; /* Ensure the images scale properly on small screens */
+    }
+
+    .card-footer a {
+        font-size: 16px;
+        padding: 12px 20px;
     }
 }
