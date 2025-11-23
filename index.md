@@ -9,8 +9,8 @@ title: "Selamat Datang di Group89!"
     <h1>Selamat Datang di Group89!</h1>
     <nav>
         <ul>
-            <li><a href="/about.md">Tentang Kami</a></li>
-            <li><a href="/contact.md">Kontak</a></li>
+            <li><a href="{{ site.baseurl }}/about">Tentang Kami</a></li>
+            <li><a href="{{ site.baseurl }}/contact">Kontak</a></li>
         </ul>
     </nav>
 </header>
@@ -40,4 +40,3 @@ title: "Selamat Datang di Group89!"
         <a href="https://instagram.com/Group89" target="_blank">Instagram</a>
     </p>
 </footer>
-
