@@ -1,0 +1,43 @@
+/* Set background color */
+body {
+    background-color: #1a1a1a;
+    color: #f5c242; /* Gold color for text */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header style */
+header {
+    background-color: #333;
+    color: #f5c242;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Navigation links */
+nav a {
+    color: #f5c242;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Footer style */
+footer {
+    background-color: #333;
+    color: #f5c242;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #f5c242;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
