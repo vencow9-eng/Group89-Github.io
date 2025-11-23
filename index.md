@@ -5,7 +5,7 @@ title: "Selamat Datang di Group89!"
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
 
-<header class="bg-dark text-white">
+<header>
     <div class="container">
         <h1>Selamat Datang di Group89!</h1>
         <nav class="navbar">
