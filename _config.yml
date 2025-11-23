@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 title: "Group89 - Platform Esports & Game"
 description: "Platform berbagi pengetahuan tentang esports dan strategi permainan."
 url: "https://vencow9-eng.github.io/Group89-Github.io/"  # Pastikan URL ini sesuai dengan GitHub Pages Anda.
-baseurl: ""
+baseurl: "/Group89-Github.io"
 paginate: 5
 
 # Author and settings
