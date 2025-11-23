@@ -1,0 +1,43 @@
+/* File: assets/css/styles.css */
+
+body {
+    background-color: #1f1f1f; /* Latar belakang hitam */
+    color: #f1c40f; /* Teks emas */
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f39c12; /* Emas lebih terang untuk judul */
+}
+
+a {
+    color: #f39c12; /* Link berwarna emas */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #f39c12;
+    padding: 15px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #f39c12;
+    color: #1f1f1f;
+}
