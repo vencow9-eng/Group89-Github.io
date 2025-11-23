@@ -14,7 +14,7 @@
                     <p class="card-text">Pelajari dasar-dasar esports dan langkah pertama menuju kesuksesan. Panduan ini cocok untuk pemula yang ingin memulai perjalanan mereka dalam dunia esports.</p>
                 </div>
                 <div class="card-footer text-center">
-                    <a href="{{ site.baseurl }}/guide.md" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
+                    <a href="https://vencow9-eng.github.io/Group89-Github.io/guide.md" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
                 </div>
             </div>
         </div>
