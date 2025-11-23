@@ -6,17 +6,17 @@ title: "Selamat Datang di Group89!"
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
 
 <header>
-    <h1>Selamat Datang di Group89!</h1>
-    <nav>
-        <ul>
-            <li><a href="{{ site.baseurl }}/about">Tentang Kami</a></li>
-            <li><a href="{{ site.baseurl }}/contact">Kontak</a></li>
-        </ul>
+    <div class="logo">
+        <h1>Group89</h1>
+    </div>
+    <nav class="navbar">
+        <a href="{{ site.baseurl }}/about.md">Tentang Kami</a>
+        <a href="{{ site.baseurl }}/contact.md">Kontak</a>
     </nav>
 </header>
 
 <main>
-    <section>
+    <section class="intro">
         <h2>Apa yang Bisa Anda Temukan di Group89?</h2>
         <ul>
             <li><strong>Panduan Esports untuk Pemula</strong>: Pelajari dasar-dasar esports dan langkah pertama menuju kesuksesan.</li>
@@ -26,9 +26,10 @@ title: "Selamat Datang di Group89!"
         </ul>
     </section>
 
-    <section>
+    <section class="call-to-action">
         <h2>Gabung dengan Kami</h2>
         <p>Group89 bertujuan untuk menciptakan komunitas yang mendukung pengembangan pemain dari semua level. Kami menyediakan akses ke informasi penting, tips, trik, dan berbagai strategi untuk sukses dalam dunia esports.</p>
+        <a href="{{ site.baseurl }}/signup.md" class="cta-btn">Gabung Sekarang</a>
     </section>
 </main>
 
